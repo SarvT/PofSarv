@@ -277,11 +277,24 @@ article>img{
     display: none;
 }
 
+/* .intro-text{
+    animation: bg-change-light forwards;
+     animation-timeline: view(50px); 
+} */
 
 .slides img{
       animation: sl-slides forwards;
       animation-timeline: view();
     
+  }
+
+  @keyframes bg-change-light{
+    from{background-color: white;}
+    to{background-color: #000;}
+  }
+  @keyframes bg-change-dark{
+    from{background-color: black;}
+    to{background-color: #fff;}
   }
   
   /* Next & previous buttons */
