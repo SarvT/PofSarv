@@ -784,7 +784,7 @@ h3{
     background-color: #f0f0f0; /* Background color for the tab */
 }
 
-.tab img {
+.tab img, i {
     width: 100%;
     height: auto;
     display: block;
@@ -822,6 +822,13 @@ h3{
 .tab:hover .overlay {
     bottom: 0;
     opacity: 1;
+}
+
+.tab i{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
 }
 
 .tab:hover img, .tab:hover p, .tab:hover a {
