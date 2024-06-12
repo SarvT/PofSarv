@@ -248,7 +248,7 @@ article>img{
 
     color: rgb(173, 135, 85);
 
-    background-color: #fff;
+    background-color: #000;
 
     animation: text-fade-head forwards;
     animation-timeline: view();
@@ -262,7 +262,7 @@ article>img{
     animation: sl-slides-bg forwards;
     animation-timeline: view();
     padding: 20px;
-    background-color: #fff;
+    background-color: #000;
 
 }
 
@@ -842,3 +842,100 @@ h3{
 
 
 /* responsiveness */
+@media screen and (max-width: 800px) {
+    .h-light{
+        font-size: 24px;
+    }
+    .h-dark{
+        margin: 12px;
+        font-size: 64px;
+    }
+
+    .intro-text{
+        margin: 1px;
+        width: auto;
+        font-size: 30px;
+        max-lines: 1;
+    }
+
+    .ser1{
+        display: block;
+    }
+
+    .ser1 h4{
+
+        font-size: 44px;
+    }
+
+    .ser1 li{
+        font-size: 40px;
+    }
+
+    .ser-main p{
+        margin-bottom: 15px;
+    }
+
+    .tabs{
+        display: block;
+    }
+
+    .tab{
+        margin: 24px auto;
+    }
+
+    .ser-main:hover ~ .ser-sub{
+        transform: translateY(12px);
+    }
+
+    .main-contact{
+        display: block;
+    }
+
+    .contact-det{
+        margin: 24px auto;
+        float: none;
+        text-align: center;
+    }
+
+    .contact-det h4{
+        font-size: x-large;
+    }
+    
+    .contact{
+        /* display: block; */
+        margin: auto;
+        float: none;
+    }
+
+    .tag{
+        text-align: center;
+    }
+
+    .cnt-tagline{
+        text-align: center;
+    }
+
+    .cnt-tagline2{
+        text-align: center;
+    }
+
+    textarea{
+        margin: 18px auto;
+        width: 80%;
+    }
+
+    .contact input{
+        margin-top: 12px;
+        width: 39%;
+    }
+
+    .cnt-head, .ser-head, .pr-head{
+        margin-top: 84px;
+    }
+
+    .submit-btn{
+        margin: 24px auto;
+        float: none;
+    }
+
+  }
